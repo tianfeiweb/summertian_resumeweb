@@ -11,11 +11,21 @@ html,body{
 
 body{
 	
-	font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-	line-height:1.5;
-	color: #fff;
-	text-decoration: none;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  line-height:1.5;
+  color: #fff;
+  text-decoration: none;
+  background-color: #464646;
     
+}
+
+#backgroundImage{
+  height:150%;
+  width:100%;
+  position: absolute;
+  z-index: -1;
+  top:0;
+  left:0;
 }
 a{
 	text-decoration: none;
